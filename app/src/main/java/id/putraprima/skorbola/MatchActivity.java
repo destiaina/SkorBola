@@ -8,7 +8,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -89,7 +88,7 @@ public class MatchActivity extends AppCompatActivity {
             intent.putExtra(hasilAway, away);
             startActivity(intent);
         } else{
-            intent.putExtra(hasilHome,"HASIL DRAW");
+            intent.putExtra(hasilHome,"Hasil dari DRAW");
             startActivity(intent);
         }
 
