@@ -85,10 +85,10 @@ public class MatchActivity extends AppCompatActivity {
             intent.putExtra(hasilHome, home);
             startActivity(intent);
         } else if(nilaiAway>nilaiHome){
-            intent.putExtra(hasilAway, away);
+            intent.putExtra(hasilHome, away);
             startActivity(intent);
         } else{
-            intent.putExtra(hasilHome,"Hasil dari DRAW");
+            intent.putExtra(hasilHome,"Skor sama");
             startActivity(intent);
         }
 
